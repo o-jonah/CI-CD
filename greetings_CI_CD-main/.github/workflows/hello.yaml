@@ -1,0 +1,13 @@
+name: hello-class
+on: push
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: starting-point
+        run: echo "Good morning Uganda"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: second-point
+      run: echo "Hello Africa"
